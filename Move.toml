@@ -1,0 +1,13 @@
+[package]
+name = 'my_coin'
+version = '1.0.0'
+upgrade_policy = "compatible"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+admin = "0x078770fa8e5e0f5e18d04a7a424c60e6989996d01197e0203d4556a433d8c383"
+coin = "0x078770fa8e5e0f5e18d04a7a424c60e6989996d01197e0203d4556a433d8c383"
